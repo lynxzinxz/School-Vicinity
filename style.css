@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+body {
+    background-image: url(me.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* for image styling */
+ img  {
+   float: left;
+   border-radius: 25px;
+   box-shadow: 5px 3px 5px 3px;
+
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    backdrop-filter: blur(10px);
+}
+.image-wrapper, .information {
+    min-width: 50%;
+    max-width: 50%;
+    display: flex;
+  justify-content: center;
+   align-items: center;
+}
+/* text styling */
+
+.text  {
+    text-align: center;
+    padding: 2%;
+    height: fit-content;
+    width: 80%;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: rgb(211, 130, 54);
+    box-shadow: 5px 3px 5px 3px;
+}
